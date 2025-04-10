@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage('Test') {
+        stage('Test1') {
             steps {
 		sh 'git --version'
                 sh 'git config --global --get http.proxy'
