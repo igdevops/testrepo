@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'cicd6'}
+    agent {label 'Linux'}
 
     stages {
         stage('Build') {
